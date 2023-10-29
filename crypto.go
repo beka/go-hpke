@@ -14,7 +14,7 @@ import (
 	_ "crypto/sha256"
 	_ "crypto/sha512"
 
-	"git.schwanenlied.me/yawning/x448.git"
+	x448 "gitlab.com/yawning/x448.git"
 	"github.com/cloudflare/circl/dh/sidh"
 	"golang.org/x/crypto/chacha20poly1305"
 	"golang.org/x/crypto/curve25519"
